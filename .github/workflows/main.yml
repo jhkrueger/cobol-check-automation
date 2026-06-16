@@ -18,9 +18,9 @@ jobs:
       env:
         ZOWE_USERNAME: ${{ secrets.ZOWE_USERNAME }}
         ZOWE_PASSWORD: ${{ secrets.ZOWE_PASSWORD }}
+        FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+        
       run: |
         # Here we'll add our commands to run cobolcheck
         echo "Running COBOL Check"
         # Add actual cobolcheck commands here
-        FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
-        
