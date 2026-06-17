@@ -11,7 +11,7 @@
     java -version
 
     # Set ZOWE_USERNAME
-    ZOWE_USERNAME="Z99998"  # Replace with your actual username
+    ZOWE_USERNAME="Z08591"  # Replace with your actual username
 
     # Change to the cobolcheck directory
     cd cobolcheck
